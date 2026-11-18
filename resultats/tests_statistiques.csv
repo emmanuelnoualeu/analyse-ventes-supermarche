@@ -1,0 +1,10 @@
+Question,Test,p-valeur,Conclusion (seuil 5 %)
+Panier moyen différent selon le magasin,Kruskal-Wallis,0.811888774343297,Pas d'écart démontré
+Panier moyen différent selon le rayon,Kruskal-Wallis,0.8274997421044261,Pas d'écart démontré
+Les membres dépensent plus que les non-membres,Mann-Whitney (unilatéral),0.29557925640378413,Pas d'écart démontré
+Mode de paiement lié au magasin,Khi-deux d'indépendance,0.5089759380399914,Pas d'écart démontré
+CA journalier différent selon le jour de la semaine,Kruskal-Wallis,0.35440804483112703,Pas d'écart démontré
+Février plus faible (CA journalier),Mann-Whitney,0.4239412761774104,Pas d'écart démontré
+Le samedi fait plus de CA que les autres jours,Mann-Whitney (unilatéral),0.03279016709189746,Écart significatif
+Mix des rayons différent selon le magasin,Khi-deux d'indépendance,0.3156225432704825,Pas d'écart démontré
+Affluence non uniforme selon l'heure,Khi-deux d'adéquation,0.050233291710537475,Pas d'écart démontré
