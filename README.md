@@ -1,5 +1,14 @@
 # Ventes de supermarché : quelles décisions les données permettent-elles vraiment ?
 
+> **English summary**
+>
+> - **Problem:** a chain of 3 supermarkets wants to know where to invest (product lines, opening hours, loyalty card), based on 3 months of receipts.
+> - **Data:** 1,000 public receipts (3 stores, January to March 2019): product line, amount, time, payment method, customer type, satisfaction rating.
+> - **Method:** data quality checks and 8 business queries in SQL (DuckDB), then a statistical test (Python, SciPy) on every observed gap before turning it into a recommendation. Interactive dashboard with store, month and customer-type filters.
+> - **Result:** most visible gaps are noise. Only one signal holds (Saturday), and the data cannot be used to manage margin.
+>
+> *The detailed write-up below is in French. Code, figures and results are language-independent.*
+
 **SQL (DuckDB) · Python (pandas, SciPy) · tableau de bord interactif**
 
 > - **Le problème :** une chaîne de 3 supermarchés veut savoir où investir (rayons, horaires, fidélité), à partir de 3 mois de tickets de caisse.
